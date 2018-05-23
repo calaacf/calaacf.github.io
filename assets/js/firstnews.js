@@ -12,3 +12,7 @@ function readData() {
 
     document.getElementById("news-snippet").innerHTML += htmlExpr;
 }
+
+$(document).ready(function () {
+  readData();
+});
