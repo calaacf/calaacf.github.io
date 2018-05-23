@@ -1,0 +1,310 @@
+/** GLOBAL **/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    margin: 0;
+    background-color: #102a4f;
+    color: #f7b01a;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#title {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    float: left;
+}
+
+#title h1 {
+    margin: inherit;
+    padding: inherit;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#title h2 {
+    margin: inherit;
+    padding: 0;
+    font-size: 24px;
+    font-weight: inherit;
+}
+
+#title h3 {
+    margin: inherit;
+    padding: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+#logo {
+    height: 150px;
+    padding-top: 10px;
+    display: inline-block;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#berkeleylogo {
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#nav {
+    list-style-type: none;
+    font-size: 24px;
+    clear: both;
+}
+
+ul#nav {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    padding-left: 0;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: solid 3px #e47725;
+    border-bottom: solid 3px #e47725;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.zoom-btn {
+    display: inline-block;
+    float: right;
+    border: solid 2px #6ea442;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    line-height: 48px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.zoom-btn:hover {
+    color: #e47725;
+    border-color: #e47725;
+}
+
+#zoom-out {
+    margin-right: 10%;
+}
+
+#news-snippet {
+    border: solid 3px #6ea442;
+    margin-top: 50px;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+.contact-text {
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: right;
+    border: solid 3px #6ea442;
+    margin-top: 20px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#page-title {
+    margin-left: 5%;
+    margin-top: 20px;
+    float: left;
+}
+
+.subtitle {
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.text-area {
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    line-height: 175%;
+}
+
+.text-area li {
+    padding-bottom: 20px;
+}
+
+/** HOME **/
+
+.photo {
+    background: #EDEFF0;
+    padding: 10px;
+    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -ms-opacity: 0;
+    transition: 1.5s;
+    margin-bottom: 40px;
+}
+
+#photo1 {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -ms-opacity: 1;
+}
+
+#nonslideshowphoto {
+    display: none;
+}
+
+.centered-content {
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    vertical-align: top;
+    position: relative;
+}
+
+#centered-content-fat {
+    width: 50%;
+}
+
+#centered-content-skinny {
+    width: 25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.centered-content img {
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#news-area {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#home-div {
+    text-align: center;
+    clear: both;
+}
+
+/** PEOPLE **/
+
+.profile-area {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    vertical-align: top;
+}
+
+.profile-pic {
+    height: 200px;
+}
+
+.profile-pic img {
+    border: solid 4px #e47725;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.profile-desc {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.profile-desc h1 {
+    margin: inherit;
+    padding: inherit;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.profile-desc h2 {
+    margin: inherit;
+    padding: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin-top: 0;
+}
+
+.profile-desc h3 {
+    margin: inherit;
+    padding: inherit;
+    font-size: 14px;
+    font-weight: inherit;
+    margin-top: 0;
+    line-height: normal;
+}
+
+/** NEWS **/
+.headline {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.date {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.detail {
+
+}
+
+/** VOLUNTEER **/
+#map {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 90%;
+    height: 300px;
+    color: black;
+    visibility: inherit;
+}
+
+#map div {
+    z-index: 2;
+}
