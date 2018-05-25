@@ -1,9 +1,9 @@
 /** GLOBAL **/
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 42px;
     margin: 0;
     background-color: #b8c5dd;
     color: #5a4e4d;
@@ -93,13 +93,6 @@ ul#nav {
     display: inline;
     margin-left: 2.5%;
     margin-right: 2.5%;
-}
-
-#news-snippet {
-    border: solid 3px #7e675e;
-    margin-top: 50px;
-    text-align: right;
-    word-wrap: break-word;
 }
 
 .contact-text {
@@ -223,7 +216,7 @@ footer:hover {
     clear: both;
 }
 
-/** PEOPLE **/
+/** MINISTRIES **/
 
 .profile-area {
     display: inline-block;
@@ -273,7 +266,7 @@ footer:hover {
     line-height: normal;
 }
 
-/** NEWS **/
+/** ANNOUNCEMENTS **/
 .headline {
     font-size: 24px;
     font-weight: 400;
@@ -309,18 +302,4 @@ footer:hover {
   display: inline-block;
   margin: 1.5%;
   vertical-align: top;
-}
-
-/** VOLUNTEER **/
-#map {
-    margin: 0 auto;
-    margin-top: 40px;
-    width: 90%;
-    height: 300px;
-    color: black;
-    visibility: inherit;
-}
-
-#map div {
-    z-index: 2;
 }
