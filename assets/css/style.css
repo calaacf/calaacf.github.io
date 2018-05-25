@@ -9,6 +9,7 @@ body {
     color: #5a4e4d;
     height: 100%;
     width: 100%;
+    min-height: 100vh;
 }
 
 a {
@@ -139,6 +140,21 @@ ul#nav {
 
 .text-area li {
     padding-bottom: 20px;
+}
+
+footer {
+  background: #333333;
+  color: #878787;
+  text-align: center;
+  padding: 10px;
+  transition: 0.5s;
+  padding: 20px 10px 20px 10px;
+  font-size: 14px;
+  float: bottom;
+}
+
+footer:hover {
+    color: white;
 }
 
 /** HOME **/

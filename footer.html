@@ -1,0 +1,13 @@
+<footer>
+        <div id="foot">
+        Copyright &copy; #### Asian American Christian Fellowship at UC Berkeley.
+        <!-- ASUC Student Union Lead Center requires the follow statement. -->
+        We are a student group acting independently of the University of California.
+        We take full responsibility for our organization and this website.
+        </div>
+
+        <!-- Add current year to copyright statement. -->
+        <script>
+            document.getElementById("foot").innerHTML = document.getElementById("foot").innerHTML.replace("####", new Date().getFullYear());
+        </script>
+</footer>
