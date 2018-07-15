@@ -10,42 +10,52 @@ function readData() {
     //Loop through each news data row and format/display it.
     for (var i = 5; i < data.length; i+=5) {
         if (data[i]["gs$cell"]["$t"] == "SOWER") {
-            htmlExprSower += "<div class=\"profile-area\">";
-            htmlExprSower += "<div class=\"profile-pic\">";
+            htmlExprSower += "<div class=\"container\">";
+            htmlExprSower += "<div class=\"profile-pic\"><img ";
             if (data[i+3]["gs$cell"]["$t"] != "--") {
-                htmlExprSower += "<img src=\"" + data[i+3]["gs$cell"]["$t"] + "\"></div>";
+                htmlExprSower += "src=\"" + data[i+3]["gs$cell"]["$t"] + "\"></div>";
             } else {
-                htmlExprSower += "<img src=\"https://lowvisionresearch.github.io/assets/img/people.jpg\"></div>";
+                htmlExprSower += "src=\"https://lowvisionresearch.github.io/assets/img/people.jpg\"></div>";
             }
-            htmlExprSower += "<div class=\"profile-desc\">";
+            htmlExprSower += "<div class=\"text\">";
+            htmlExprSower += "<h3 class=\"title\">";
             if (data[i+1]["gs$cell"]["$t"] != "--") {
-                htmlExprSower += "<h1>" + data[i+1]["gs$cell"]["$t"] + "</h1>";
+                 htmlExprSower += data[i+1]["gs$cell"]["$t"];
+            }
+            if (data[i+1]["gs$cell"]["$t"] != "--" && data[i+2]["gs$cell"]["$t"] != "--") {
+                htmlExprSower += " with ";
             }
             if (data[i+2]["gs$cell"]["$t"] != "--") {
-                htmlExprSower += "<h2>" + data[i+2]["gs$cell"]["$t"] + "</h2>";
+                htmlExprSower += data[i+2]["gs$cell"]["$t"];
             }
+            htmlExprSower += "</h3>";
             if (data[i+4]["gs$cell"]["$t"] != "--") {
-                htmlExprSower += "<h3>" + data[i+4]["gs$cell"]["$t"].replace('\n', '<br><br>') + "</h3>";
+                htmlExprSower += "<h4 class=\"content\">" + data[i+4]["gs$cell"]["$t"].replace('\n', '<br><br>') + "</h4>";
             }
             htmlExprSower += "</div>";
             htmlExprSower += "</div>";
         } else if (data[i]["gs$cell"]["$t"] == "Small Group") {
-            htmlExprSg += "<div class=\"profile-area\">";
-            htmlExprSg += "<div class=\"profile-pic\">";
+            htmlExprSg += "<div class=\"container\">";
+            htmlExprSg += "<div class=\"profile-pic\"><img ";
             if (data[i+3]["gs$cell"]["$t"] != "--") {
-                htmlExprSg += "<img src=\"" + data[i+3]["gs$cell"]["$t"] + "\"></div>";
+                htmlExprSg += "src=\"" + data[i+3]["gs$cell"]["$t"] + "\"></div>";
             } else {
-                htmlExprSg += "<img src=\"https://lowvisionresearch.github.io/assets/img/people.jpg\"></div>";
+                htmlExprSg += "src=\"https://lowvisionresearch.github.io/assets/img/people.jpg\"></div>";
             }
-            htmlExprSg += "<div class=\"profile-desc\">";
+            htmlExprSg += "<div class=\"text\">";
+            htmlExprSg += "<h3 class=\"title\">";
             if (data[i+1]["gs$cell"]["$t"] != "--") {
-                htmlExprSg += "<h1>" + data[i+1]["gs$cell"]["$t"] + "</h1>";
+                 htmlExprSg += data[i+1]["gs$cell"]["$t"];
+            }
+            if (data[i+1]["gs$cell"]["$t"] != "--" && data[i+2]["gs$cell"]["$t"] != "--") {
+                htmlExprSg += " with ";
             }
             if (data[i+2]["gs$cell"]["$t"] != "--") {
-                htmlExprSg += "<h2>" + data[i+2]["gs$cell"]["$t"] + "</h2>";
+                htmlExprSg += data[i+2]["gs$cell"]["$t"];
             }
+            htmlExprSg += "</h3>";
             if (data[i+4]["gs$cell"]["$t"] != "--") {
-                htmlExprSg += "<h3>" + data[i+4]["gs$cell"]["$t"].replace('\n', '<br><br>') + "</h3>";
+                htmlExprSg += "<h4 class=\"content\">" + data[i+4]["gs$cell"]["$t"].replace('\n', '<br><br>') + "</h4>";
             }
             htmlExprSg += "</div>";
             htmlExprSg += "</div>";

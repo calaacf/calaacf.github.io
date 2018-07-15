@@ -3,8 +3,7 @@
 	<head>
 		<title>AACF at UC Berkeley</title>
 		<link href="https://fonts.googleapis.com/css?family=Oxygen:300,500,700" rel="stylesheet">
-	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/reducedstyle.css">
+	    <link rel="stylesheet" type="text/css" href="assets/css/secretweebstyle.css">
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="assets/js/ministries.js"></script>
@@ -12,38 +11,38 @@
 	</head>
 
 	<body>
-		<div id="header"></div>
+		<div class="header" margin-bottom="10vw"></div>
 		<script>
-			$("#header").load("header.html");
+			$(".header").load("header.html");
 		</script>
 
-		<div id="page-title">
-			Ministries
-		</div>
-		<div style="clear: both"></div>
-		<div class="subtitle">
-			SOWER.
-		</div>
-		<div class="text-area">
-			<b>SOWER</b> stands for <b>S</b>erving in <b>O</b>utreach, <b>W</b>orship,
-			<b>E</b>ncouragement, and <b>R</b>elationship-building. Each ministry
-			seeks to meet the needs of the fellowship from a different angle.
-			Together, they provide a strong foundation for the community here at AACF.<br><br>
+		<div class="header-spacer"></div>
 
-			<i>As for what was sown on good soil, this is the one who hears the word and
-			understands it (Matthew 13:23).</i><br><br>
-		</div>
-		<div class="text-area" id="sower" style="text-align: center"></div>
+		<div id="about_container">
+			<h1 id="about_title">
+				SOWER
+			</h1>
+			<h2 id="about_content">
+				<b>SOWER</b> stands for <b>S</b>erving in <b>O</b>utreach, <b>W</b>orship,
+				<b>E</b>ncouragement, and <b>R</b>elationship-building. Each ministry
+				seeks to meet the needs of the fellowship from a different angle.
+				Together, they provide a strong foundation for the community here at AACF.<br><br>
 
-		<div class="subtitle">
-			Small Groups.
+				<i>As for what was sown on good soil, this is the one who hears the word and
+				understands it (Matthew 13:23).</i><br><br>			</h2>
 		</div>
-		<div class="text-area">
-			Join a small group! Small groups meet once a week and are an opportunity
-			to go more in-depth into the Bible with one another. This semester, we’re
-			 going through selected passages of the book of Mark.<br><br>
+		<div class="text-area" id="sower"></div>
+
+		<div id="about_container">
+			<h1 id="about_title">
+				Small Groups
+			</h1>
+			<h2 id="about_content">
+				Join a small group! Small groups meet once a week and are an opportunity
+				to go more in-depth into the Bible with one another. This semester, we’re
+				going through selected passages of the book of Luke.<br><br>
 		</div>
-		<div class="text-area" id="sg" style="text-align: center"></div>
+		<div class="text-area" id="sg"></div>
 
 		<div id="footer"></div>
 		<script>
