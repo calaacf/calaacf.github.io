@@ -40,7 +40,7 @@ function readData() {
             if (data[i+3]["gs$cell"]["$t"] != "--") {
                 htmlExprSg += "src=\"" + data[i+3]["gs$cell"]["$t"] + "\"></div>";
             } else {
-                htmlExprSg += "src=\"https://lowvisionresearch.github.io/assets/img/people.jpg\"></div>";
+                htmlExprSg += "src=\"assets/img/people.jpg\"></div>";
             }
             htmlExprSg += "<div class=\"text\">";
             htmlExprSg += "<h3 class=\"title\">";
