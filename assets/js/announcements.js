@@ -8,17 +8,21 @@ function readData() {
 
     //Loop through each news data row and format/display it.
     for (var i = 6; i < data.length; i+=6) {
-        htmlExpr += '<div class=\"text-area\">';
+        htmlExpr += '<div class=\"announcements-container\">';
+        htmlExpr += '<a href=\"mailto:' + data[i+1]["gs$cell"]["$t"] + '\"><div class=\"contact\">[Contact]</div></a>';
         htmlExpr += '<div class=\"headline\">' + data[i+2]["gs$cell"]["$t"] + '</div>';
-        htmlExpr += '<div class=\"date\"><a href=\"mailto:' + data[i+1]["gs$cell"]["$t"] + '\">[Contact]</a></div>';
-        htmlExpr += '<div class=\"detail\">' + data[i+3]["gs$cell"]["$t"] + '<br><br></div>';
-        htmlExpr += '<img src=\"' + data[i+4]["gs$cell"]["$t"].replace('open?id=', 'uc?id=').replace('edit', '') + '\" class=\"photo\" id=\"photo1\" width=60%>';
+        htmlExpr += '<div class=\"details\">' + data[i+3]["gs$cell"]["$t"] + '<br><br></div>';
+        htmlExpr += '<div class=\"tail\"></div>';
+        htmlExpr += '<img class=\"announcements-image\" src=\"' + data[i+4]["gs$cell"]["$t"].replace('open?id=', 'uc?id=').replace('edit', '')
+          + '\" style=\"transform:rotate(' + (Math.random()*4-2) + 'deg) '
+          + 'translateY(-1vw) '
+          + 'translateX(' + (Math.random()*20-10) + 'vh)\">';
         htmlExpr += '</div>';
     }
 
     htmlExpr = htmlExpr.replace(/\n/g, '<br>');
 
-    document.getElementById("news-area").innerHTML += htmlExpr;
+    document.getElementById("announcements-area").innerHTML += htmlExpr;
 }
 
 $(document).ready(function () {

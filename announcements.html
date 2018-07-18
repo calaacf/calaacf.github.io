@@ -2,9 +2,8 @@
 <html>
 	<head>
 		<title>AACF at UC Berkeley</title>
-		<link href="https://fonts.googleapis.com/css?family=Oxygen:300,500,700" rel="stylesheet">
-	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/reducedstyle.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/secretweebstyle.css">
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="assets/js/announcements.js"></script>
@@ -12,16 +11,18 @@
   	</head>
 
 	<body>
-		<div id="header"></div>
+		<div class="header"></div>
 		<script>
-			$("#header").load("header.html");
+			$(".header").load("header.html");
 		</script>
+		<div class="header-spacer"></div>
 
-		<div id="page-title">
-			Announcements
+		<div id="about_container">
+			<h1 id="about_title">
+				announcements
+			</h1>
 		</div>
-		<div style="clear: both"></div>
-		<div class="text-area" id="news-area"></div>
+		<div class="text-area" id="announcements-area"></div>
 
 		<div id="footer"></div>
 		<script>
