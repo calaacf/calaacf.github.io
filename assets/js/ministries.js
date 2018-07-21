@@ -15,7 +15,7 @@ function readData() {
             if (data[i+3]["gs$cell"]["$t"] != "--") {
                 htmlExprSower += "src=\"" + data[i+3]["gs$cell"]["$t"] + "\"></div>";
             } else {
-                htmlExprSower += "src=\"https://lowvisionresearch.github.io/assets/img/people.jpg\"></div>";
+                htmlExprSower += "src=\"assets/img/people.jpg\"></div>";
             }
             htmlExprSower += "<div class=\"text\">";
             htmlExprSower += "<h3 class=\"title\">";
