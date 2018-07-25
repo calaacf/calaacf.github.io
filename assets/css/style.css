@@ -265,7 +265,7 @@ h4 {
 	border-radius: 5px;
 	margin: 1vw 1vw 1vw 0;
 	font-family: inherit;
-	font-size: inherit;
+	font-size: 1.5vw;
 	background-color: var(--hint-of-mustard);
 	padding-left: 1vw;
 }
@@ -281,7 +281,8 @@ h4 {
 	color: var(--hint-of-mustard);
 	border: solid 2px #4f77bd;
 	line-height: 3vw;
-	vertical-align: middle;
+	vertical-align: baseline;
+	font-size: 1.5vw;
 }
 
 .confirm:hover {
@@ -401,4 +402,8 @@ footer {
 
 footer:hover {
     color: var(--hint-of-mustard);
+}
+
+.mobile-only {
+	display: none;
 }

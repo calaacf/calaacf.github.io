@@ -1,0 +1,124 @@
+@media only screen and (max-device-width: 600px) {
+
+  html, body {
+    font-size: 3vw;
+  }
+
+  .aacf {
+    font-size: 7vw;
+  }
+
+  .berkeley {
+    font-size: 4vw;
+  }
+
+  .tab {
+    float: none;
+    padding: 3vw 0 1vw 0;
+    margin: inherit;
+    height: auto;
+    text-align: right;
+    top: 0;
+    transform: none;
+  }
+
+  .tab:hover {
+    background-color: inherit;
+  }
+
+  .tab_container {
+    padding-top: 5vw;
+    position: relative;
+    transform: none;
+  }
+
+  .header {
+    height: 30vw;
+  }
+
+  .header-spacer {
+    height: 30vw;
+  }
+
+  #load_container {
+    margin-top: 30vw;
+    height: 55%;
+    padding-top: 25vw;
+  }
+
+  #welcome {
+    font-size: 5vw;
+    padding: 2vw;
+  }
+
+  #welcome, #blurb {
+    position: static;
+    margin: 0 auto;
+    margin-top: 2vw;
+    text-align: center;
+  }
+
+  #blurb {
+    font-size: 4vw;
+    width: 60vw;
+  }
+
+  #about_title {
+    font-size: 6vw;
+  }
+
+  #about_content {
+    font-size: 3vw;
+    line-height: 5vw;
+    margin-bottom: 10vw;
+  }
+
+  .container {
+    padding-bottom: 10vw;
+  }
+
+  .content {
+    line-height: 4vw;
+    margin-left: 2vw;
+  }
+
+  .text{
+    display: block;
+    width: 100%;
+  }
+
+  .image {
+    display: block;
+    max-width: 75%;
+    max-height: none;
+    margin: 0 auto;
+    margin-top: 5vw;
+  }
+
+  .profile-pic {
+    display: block;
+    height: 30vw;
+    width: 30vw;
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 5vw;
+    letter-spacing: .5vw;
+    line-height: normal;
+    height: auto;
+  }
+
+  .right-align, .right-align h3, .right-align h4 {
+    text-align: left;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: inherit;
+  }
+
+}
