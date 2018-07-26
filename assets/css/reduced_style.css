@@ -5,21 +5,51 @@
   }
 
   .aacf {
+    margin: 0;
     font-size: 7vw;
+    display: block;
+    position: fixed;
+    left: 4.5vw;
   }
 
   .berkeley {
     font-size: 4vw;
+    display: block;
+    position: fixed;
+    left: 4vw;
+    line-height: normal;
+    margin-top: 7vw;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  #hamburger {
+    height: 5vw;
+    width: 5vw;
+    z-index: 100000;
+    display: block;
+    position: fixed;
+    top: 4vw;
+    right: 4vw;
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 5px;
+    filter:brightness(100);
   }
 
   .tab {
     float: none;
-    padding: 3vw 0 1vw 0;
-    margin: inherit;
+    padding: 0;
+    margin: 3vw 0 0 0;
     height: auto;
     text-align: right;
-    top: 0;
+    top: auto;
     transform: none;
+    display: block;
+    position: static;
+    width: auto;
   }
 
   .tab:hover {
@@ -27,23 +57,32 @@
   }
 
   .tab_container {
-    padding-top: 5vw;
-    position: relative;
+    padding: 0;
+    position: fixed;
     transform: none;
+    right: auto;
+    bottom: auto;
+    height: auto;
+    display: block;
+    width: auto;
+    margin: 0;
+    right: 4vw;
+    top: 12vw;
   }
 
   .header {
-    height: 30vw;
+    height: 35vw;
+    transition: 1s;
   }
 
   .header-spacer {
-    height: 30vw;
+    height: 35vw;
+    transition: 1s;
   }
 
   #load_container {
-    margin-top: 30vw;
     height: 55%;
-    padding-top: 25vw;
+    padding-top: 55vw;
   }
 
   #welcome {
