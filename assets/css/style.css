@@ -268,6 +268,7 @@ h4 {
 	font-size: 1.5vw;
 	background-color: var(--hint-of-mustard);
 	padding-left: 1vw;
+	vertical-align: middle;
 }
 
 .confirm {
@@ -281,8 +282,9 @@ h4 {
 	color: var(--hint-of-mustard);
 	border: solid 2px #4f77bd;
 	line-height: 3vw;
-	vertical-align: baseline;
+	vertical-align: middle;
 	font-size: 1.5vw;
+	padding: 0;
 }
 
 .confirm:hover {
