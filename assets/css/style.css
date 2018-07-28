@@ -3,7 +3,6 @@ html, body {
 	height: 100%;
 	margin: 0;
 	background-color: var(--hint-of-mustard);
-	overflow-x: hidden;
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 1px;
 	font-size: 1.25vw;
@@ -19,6 +18,10 @@ html, body {
 	--steel-blue: #94a2b7;
 	--blue: #395a8e;
 	--dark-blue: #031c42;
+}
+
+body {
+	overflow-x: hidden;
 }
 
 a {
