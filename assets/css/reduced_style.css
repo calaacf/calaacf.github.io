@@ -72,6 +72,7 @@
     margin: 0;
     right: 4vw;
     top: 12vw;
+    transition: 2s;
   }
 
   .header {
