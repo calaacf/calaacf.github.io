@@ -39,7 +39,7 @@ function closeTabs() {
 $( document ).ready(function() {
   var lastScrollTop = 0;
   window.addEventListener("scroll", function(){
-    if (!window.matchMedia("(max-width: 600px)").matches) {
+    if (!window.matchMedia("(max-device-width: 600px)").matches) {
       return;
     }
     clearTimeout(collapse_handle);
