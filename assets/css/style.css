@@ -328,7 +328,7 @@ h4 {
 }
 
 /** ANNOUNCEMENTS **/
-.announcements-container {
+#announcements-container {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 1vw;
@@ -388,11 +388,9 @@ h4 {
 
 .announcements-image {
 	display: inline-block;
-	max-height: 25vw;
+	max-height: 35vw;
 	margin-bottom: 5vw;
-	padding-bottom: 1vw;
 	background-color: var(--hint-of-blue);
-	border-bottom: solid 4px var(--blue);
 	z-index: 1;
 }
 
