@@ -190,10 +190,11 @@ h2 {
 .profile-pic {
 	display: inline-block;
 	vertical-align: top;
-	margin: 9.5vw 5% 0 5%;
+	margin: 5vw 5% 0 5%;
 	width: 15vw;
 	height: 15vw;
 	overflow: hidden;
+	object-fit: cover;
 	border-radius: 50%;
 }
 
