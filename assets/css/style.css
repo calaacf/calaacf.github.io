@@ -389,7 +389,9 @@ h4 {
 
 .announcements-image {
 	display: inline-block;
-	max-height: 35vw;
+	width: 960px;
+	height: 540px;
+	max-height: 960vw;
 	margin-bottom: 5vw;
 	background-color: var(--hint-of-blue);
 	z-index: 1;
