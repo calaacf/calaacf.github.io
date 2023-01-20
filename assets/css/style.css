@@ -391,7 +391,7 @@ h4 {
 	display: inline-block;
 	width: 960px;
 	height: 540px;
-	max-height: 960vw;
+	max-height: 50vw;
 	margin-bottom: 5vw;
 	background-color: var(--hint-of-blue);
 	z-index: 1;
