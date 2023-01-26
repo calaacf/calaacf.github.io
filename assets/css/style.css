@@ -8,6 +8,9 @@ html, body {
 	font-size: 1.25vw;
 	line-height: 1.7vw;
 
+	--nice-blue: #4171eb;
+	--darker-nice-blue: #2d62e6;
+
 	--hint-of-mustard: #fffdf9;
 	--mustard: #FFB819;
 	--dark-mustard: #F5A623;
@@ -33,14 +36,14 @@ a {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background-color: var(--mustard);
+	background-color: var(--nice-blue);
 }
 
 #welcome {
 	position: absolute;
 	width: 30vw;
 	height: 5vw;
-	background-color: var(--dark-mustard);
+	background-color: var(--darker-nice-blue);
 	font-weight: 700;
 	line-height: 5vw;
 	color: var(--hint-of-mustard);
@@ -71,7 +74,7 @@ a {
 	top: 0px;
 	color: var(--hint-of-mustard);
 	text-transform: uppercase;
-	background-color: var(--mustard);
+	background-color: var(--nice-blue);
 	z-index: 1000;
 }
 
@@ -128,7 +131,7 @@ a {
 .tab:hover {
 	transition: 0.5s;
 	cursor: pointer;
-	background-color: var(--dark-mustard);
+	background-color: var(--darker-nice-blue);
 	border-radius: 5px;
 }
 
@@ -359,7 +362,7 @@ h4 {
 }
 
 .contact:hover {
-	border-color: var(--mustard);
+	border-color: var(--nice-blue;
 	background-color: var(--hint-of-mustard);
 	font-style: normal;
 	transition: 0.5s;
