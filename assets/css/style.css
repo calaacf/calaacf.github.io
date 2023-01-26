@@ -74,7 +74,7 @@ a {
 	top: 0px;
 	color: var(--hint-of-mustard);
 	text-transform: uppercase;
-	background-color: var(--mustard);
+	background-color: var(--nice-blue);
 	z-index: 1000;
 }
 
