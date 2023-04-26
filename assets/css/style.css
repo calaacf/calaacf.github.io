@@ -393,7 +393,7 @@ h4 {
 .announcements-image {
 	display: inline-block;
 	width: auto;
-	height: auto;
+	height: 500px;
 	margin-bottom: 5vw;
 	background-color: var(--hint-of-blue);
 	z-index: 1;
